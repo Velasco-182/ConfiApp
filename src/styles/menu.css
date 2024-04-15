@@ -1,0 +1,33 @@
+
+.menu {
+    background-color: #4d4c4c;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .menu-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .menu-item {
+    margin-bottom: 0.5rem;
+  }
+  
+  .menu-button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid #5a94f7;
+    border-radius: 5px;
+    background-color:#5a94f7;
+    color: #121111;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .menu-button:hover {
+    background-color: #5a94f7;
+  }

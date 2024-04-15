@@ -1,0 +1,55 @@
+/* Estilos para la tarjeta de publicación */
+.publication-card {
+    margin-left: auto; /* Alinear la tarjeta a la derecha */
+    width: 80%; /* Ancho de la tarjeta */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Ocultar el contenido que se desborde */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Imagen de la publicación */
+.publication-card img {
+    width: 100%; /* Ancho completo */
+    height: auto; /* Altura automática */
+    border-top-left-radius: 10px; /* Redondear la esquina superior izquierda */
+    border-top-right-radius: 10px; /* Redondear la esquina superior derecha */
+}
+
+/* Contenido de la publicación */
+.publication-card .content {
+    padding: 10px; /* Espaciado interno */
+}
+
+/* Título de la publicación */
+.publication-card h3 {
+    font-size: 1rem; /* Tamaño del título */
+    margin-bottom: 5px; /* Espaciado inferior */
+}
+
+/* Botones */
+.publication-card button {
+    cursor: pointer; /* Cambiar el cursor al pasar sobre los botones */
+    outline: none; /* Eliminar el contorno al hacer clic */
+    border: none; /* Eliminar el borde */
+    padding: 8px 12px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 0.7rem; /* Tamaño de fuente */
+}
+
+/* Botón de Ver Detalles */
+.publication-card .details-button {
+    color: #3182ce; /* Color del texto */
+}
+
+/* Botón de Aceptar */
+.publication-card .accept-button {
+    background-color: #5192e1; /* Color de fondo */
+    color: white; /* Color del texto */
+}
+
+/* Botón de Rechazar */
+.publication-card .reject-button {
+    background-color: #f56565; /* Color de fondo */
+    color: white; /* Color del texto */
+    margin-left: 6px; /* Espaciado izquierdo */
+}

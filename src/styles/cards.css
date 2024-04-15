@@ -1,0 +1,15 @@
+.user-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.team-card-img {
+    max-width: 100%;
+    height: auto;
+    max-height: 100px; /* Establece la altura máxima deseada */
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
